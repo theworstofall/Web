@@ -1,36 +1,70 @@
 {% extends 'base.html' %}
-
 {% block title %}Contact{% endblock %}
 
+{% block head %}
+  <style>
+    /* Center between navbar and footer (150px total reserved) */
+    .full-height {
+      min-height: calc(100vh - 150px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 16px; /* ensure footer never overlaps */
+    }
+
+    /* Scale the contact card */
+    .contact-card {
+      width: 100%;
+      max-width: 400px;
+      padding: 2rem;
+    }
+  </style>
+{% endblock %}
+
 {% block content %}
-<div class="container my-5">
-  <div class="row justify-content-center">
-    <div class="col-md-8">
-      <div class="card mb-4 animate__animated animate__fadeInUp">
-        <div class="card-body">
-          <h3 class="card-title text-center mb-4">Contact Us</h3>
-          
-          <form action="/submit_contact" method="POST">
-            <div class="mb-3">
-              <label for="name" class="form-label">Your Name</label>
-              <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Your Email</label>
-              <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
-            </div>
-            <div class="mb-3">
-              <label for="subject" class="form-label">Subject</label>
-              <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Your Message</label>
-              <textarea class="form-control" id="message" name="message" rows="4" placeholder="Type your message here" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary w-100">Submit</button>
-          </form>
+<div class="full-height">
+  <div class="card contact-card animate__animated animate__fadeInUp">
+    <div class="card-body">
+      <h3 class="card-title text-center mb-4">Contact Us</h3>
+      <form action="/submit_contact" method="POST">
+        <div class="mb-3">
+          <label for="name" class="form-label">Your Name</label>
+          <input type="text"
+                 class="form-control"
+                 id="name"
+                 name="name"
+                 placeholder="Enter your name"
+                 required>
         </div>
-      </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Your Email</label>
+          <input type="email"
+                 class="form-control"
+                 id="email"
+                 name="email"
+                 placeholder="Enter your email"
+                 required>
+        </div>
+        <div class="mb-3">
+          <label for="subject" class="form-label">Subject</label>
+          <input type="text"
+                 class="form-control"
+                 id="subject"
+                 name="subject"
+                 placeholder="Subject"
+                 required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Your Message</label>
+          <textarea class="form-control"
+                    id="message"
+                    name="message"
+                    rows="4"
+                    placeholder="Type your message here"
+                    required></textarea>
+        </div>
+        <button type="submit" class="btn btn-shiny w-100">Submit</button>
+      </form>
     </div>
   </div>
 </div>
