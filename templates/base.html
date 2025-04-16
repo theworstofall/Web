@@ -11,9 +11,7 @@
   <!-- Animate.css for animations -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <style>
-    html, body {
-      height: 100%;
-    }
+    html, body { height: 100%; margin: 0; }
     body {
       display: flex;
       flex-direction: column;
@@ -22,9 +20,7 @@
       color: #333;
       overflow-x: hidden;
     }
-    .container {
-      max-width: 1140px;
-    }
+    .container { max-width: 1140px; }
     .navbar {
       background: rgba(255, 255, 255, 0.95);
       backdrop-filter: blur(10px);
@@ -36,19 +32,13 @@
       font-size: 1.5rem;
       color: #3a1c71 !important;
     }
-    .navbar-toggler {
-      border: none;
-    }
-    .navbar-toggler:focus {
-      box-shadow: none;
-    }
+    .navbar-toggler { border: none; }
+    .navbar-toggler:focus { box-shadow: none; }
     .nav-link {
       font-weight: 500;
       color: #3a1c71 !important;
     }
-    .nav-link:hover {
-      color: #d76d77 !important;
-    }
+    .nav-link:hover { color: #d76d77 !important; }
     .card {
       background: #fff;
       border: none;
@@ -61,26 +51,26 @@
       font-weight: 700;
       color: #3a1c71;
     }
-    .btn-primary {
+    .btn-shiny {
       background: linear-gradient(90deg, #ff7e5f, #feb47b);
       border: none;
+      color: #fff;
       transition: transform 0.3s, background 0.3s;
     }
-    .btn-primary:hover {
+    .btn-shiny:hover {
       transform: translateY(-3px);
       background: linear-gradient(90deg, #feb47b, #ff7e5f);
     }
     .content-wrapper {
       flex: 1;
-      position: relative;
-      z-index: 1;
       width: 100%;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
     }
     footer {
       padding: 1rem 0;
       text-align: center;
       color: #fff;
-      z-index: 2;
       background: transparent;
     }
   </style>
@@ -91,17 +81,33 @@
   <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container-fluid px-3 px-md-5">
       <a class="navbar-brand" href="/">Modern Dashboard</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-              data-bs-target="#navbarContent" aria-controls="navbarContent" 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarContent" aria-controls="navbarContent"
               aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
-        <ul class="navbar-nav">
+
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <!-- Left side: dashboard/contact links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           {% if session.username %}
             <li class="nav-item">
               <a class="nav-link" href="/dashboard">Dashboard</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact</a>
+            </li>
+            {% if session.username == 'Bad' %}
+            <li class="nav-item">
+              <a class="nav-link" href="/contact_submissions">Contact Submissions</a>
+            </li>
+            {% endif %}
+          {% endif %}
+        </ul>
+
+        <!-- Right side: login/sign up or logout -->
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          {% if session.username %}
             <li class="nav-item">
               <a class="nav-link" href="/logout">Logout</a>
             </li>
@@ -119,7 +125,7 @@
   </nav>
 
   <!-- Main Content -->
-  <div class="content-wrapper container my-5">
+  <div class="content-wrapper container">
     {% with messages = get_flashed_messages(with_categories=true) %}
       {% if messages %}
         {% for category, message in messages %}
@@ -136,7 +142,7 @@
   <!-- Footer -->
   <footer>
     <div class="container">
-      <p>&copy; {{ datetime.utcnow().year }} Modern Dashboard. All rights reserved.</p>
+      &copy; {{ datetime.utcnow().year }} Modern Dashboard. All rights reserved.
     </div>
   </footer>
 

@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 
-{% block title %}Verify Reset Code{% endblock %}
+{% block title %}Verify Reset Code | My Website{% endblock %}
 
 {% block content %}
-<div class="card card-form">
+<div class="card card-form mx-auto my-5 p-4" style="max-width: 500px;">
     <div class="card-body text-center">
         <h2 class="card-title mb-4">Verify Reset Code</h2>
         <form method="POST" action="{{ url_for('verify_reset_code') }}">

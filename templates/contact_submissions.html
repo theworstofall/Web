@@ -1,24 +1,30 @@
-{% extends "base.html" %}
-{% block title %}Contact Form Submissions | My Website{% endblock %}
+<!-- templates/contact_submissions.html -->
+{% extends 'base.html' %}
+
 {% block content %}
-<div class="card card-form">
-  <div class="card-body">
-    <h2 class="card-title">Contact Form Submissions</h2>
-    {% if submissions %}
-      <ul class="list-group">
+  <div class="container mt-5">
+    <h2>Contact Submissions</h2>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Message</th>
+          <th>Date Submitted</th>
+        </tr>
+      </thead>
+      <tbody>
         {% for submission in submissions %}
-        <li class="list-group-item">
-          <strong>Name:</strong> {{ submission.name }}<br>
-          <strong>Email:</strong> {{ submission.email }}<br>
-          <strong>Message:</strong> {{ submission.message }}<br>
-          <small><em>{{ submission.timestamp }}</em></small>
-        </li>
+          <tr>
+            <td>{{ submission.id }}</td>
+            <td>{{ submission.name }}</td>
+            <td>{{ submission.email }}</td>
+            <td>{{ submission.message }}</td>
+            <td>{{ submission.timestamp.strftime('%Y-%m-%d %H:%M:%S') }}</td>
+          </tr>
         {% endfor %}
-      </ul>
-    {% else %}
-      <p>No submissions yet.</p>
-    {% endif %}
-    <a href="{{ url_for('dashboard') }}" class="btn btn-secondary mt-3">Back to Dashboard</a>
+      </tbody>
+    </table>
   </div>
-</div>
 {% endblock %}

@@ -1,24 +1,47 @@
 {% extends 'base.html' %}
 {% block title %}Login{% endblock %}
+
+{% block head %}
+  <style>
+    /* Center between navbar and footer (150px total reserved) */
+    .full-height {
+      min-height: calc(100vh - 150px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 16px; /* ensure footer never overlaps */
+    }
+
+    /* Scale the login card */
+    .login-card {
+      width: 100%;
+      max-width: 400px;
+      padding: 2rem;
+    }
+  </style>
+{% endblock %}
+
 {% block content %}
-<div class="row justify-content-center">
-  <div class="col-md-5">
-    <div class="card p-4 animate__animated animate__fadeInUp">
-      <h3 class="card-title text-center mb-4">Login</h3>
-      <form action="/login" method="POST">
+<div class="full-height">
+  <div class="card login-card animate__animated animate__fadeInUp">
+    <div class="card-body">
+      <h2 class="card-title text-center mb-4">Login</h2>
+      <form method="POST" action="{{ url_for('login') }}">
         <div class="mb-3">
-          <label for="username" class="form-label">Username</label>
-          <input type="text" class="form-control" id="username" name="username" placeholder="Enter your username" required>
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" name="email"
+                 placeholder="Enter your email" required>
         </div>
         <div class="mb-3">
           <label for="password" class="form-label">Password</label>
-          <input type="password" class="form-control" id="password" name="password" placeholder="Enter your password" required>
+          <input type="password" class="form-control" id="password" name="password"
+                 placeholder="Enter your password" required>
         </div>
-        <div class="d-grid">
-          <button type="submit" class="btn btn-primary">Login</button>
-        </div>
+        <button type="submit" class="btn btn-shiny w-100">Login</button>
       </form>
-      <p class="mt-3 text-center">Don't have an account? <a href="/register">Sign Up</a></p>
+      <div class="text-center mt-3">
+        <a href="{{ url_for('forgot_password') }}" class="small">Forgot Password?</a>
+      </div>
     </div>
   </div>
 </div>

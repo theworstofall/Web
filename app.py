@@ -31,6 +31,12 @@ class User(db.Model):
     email = db.Column(db.String(150), unique=True, nullable=False)
     password = db.Column(db.String(150), nullable=False)
 
+    def set_password(self, password):
+        self.password = generate_password_hash(password)
+
+    def check_password(self, password):
+        return check_password_hash(self.password, password)
+
 # Contact form submission model
 class ContactSubmission(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -44,15 +50,19 @@ class ContactSubmission(db.Model):
 def home():
     current_year = datetime.now().year
     logger.debug(f"Rendering home page; current year: {current_year}")
+    
+    # Show username after login
+    if 'username' in session:
+        username = session['username']
+        return render_template('index.html', current_year=current_year, username=username)
+    
     return render_template('index.html', current_year=current_year)
 
 # Dashboard page
 @app.route('/dashboard')
 def dashboard():
     if 'username' not in session:
-        flash('Please log in first', 'warning')
         return redirect(url_for('login'))
-    
     username = session['username']
     user = User.query.filter_by(username=username).first()
     return render_template('dashboard.html', username=username, user_info=user)
@@ -72,7 +82,7 @@ def login():
         if user and check_password_hash(user.password, password):
             session['username'] = username
             flash(f'Welcome back, {username}!', 'success')
-            return redirect(url_for('home'))
+            return redirect(url_for('home'))  # Redirect to home page after login
         else:
             flash('Invalid credentials', 'danger')
     
@@ -99,7 +109,8 @@ def register():
             flash('Username already exists', 'danger')
             return redirect(url_for('register'))
         
-        new_user = User(username=username, email=email, password=generate_password_hash(password))
+        new_user = User(username=username, email=email)
+        new_user.set_password(password)
         db.session.add(new_user)
         db.session.commit()
         
@@ -111,10 +122,9 @@ def register():
 # Logout
 @app.route('/logout')
 def logout():
-    if 'username' in session:
-        username = session.pop('username')
-        flash(f'You have been logged out, {username}', 'info')
-    return redirect(url_for('home'))
+    session.pop('username', None)
+    flash(f'You have been logged out', 'info')
+    return redirect(url_for('home'))  # Redirect to home after logout
 
 # Forgot Password
 @app.route('/forgot_password', methods=['GET', 'POST'])
@@ -179,7 +189,7 @@ def reset_password():
         
         user = User.query.filter_by(email=session['reset_email']).first()
         if user:
-            user.password = generate_password_hash(new_password)
+            user.set_password(new_password)
             db.session.commit()
             session.pop('reset_code')
             session.pop('reset_email')
@@ -192,9 +202,8 @@ def reset_password():
 @app.route('/change_password', methods=['GET', 'POST'])
 def change_password():
     if 'username' not in session:
-        flash('Please log in to change your password.', 'warning')
         return redirect(url_for('login'))
-
+    
     user = User.query.filter_by(username=session['username']).first()
     if request.method == 'POST':
         current_password = request.form.get('current_password')
@@ -209,7 +218,7 @@ def change_password():
             flash('New passwords do not match.', 'danger')
             return redirect(url_for('change_password'))
 
-        user.password = generate_password_hash(new_password)
+        user.set_password(new_password)
         db.session.commit()
 
         flash('Your password has been updated.', 'success')
@@ -217,31 +226,50 @@ def change_password():
 
     return render_template('change_password.html')
 
-# Contact Us Form
-@app.route('/contact_us', methods=['POST'])
-def contact_us():
-    name = request.form.get('name')
-    email = request.form.get('email')
-    message = request.form.get('message')
-    
-    submission = ContactSubmission(name=name, email=email, message=message)
-    db.session.add(submission)
-    db.session.commit()
-    
-    flash('Your message has been sent successfully!', 'success')
-    return redirect(url_for('dashboard'))
+class ContactSubmission(db.Model):
+    __tablename__ = 'contact_submission'
+    __table_args__ = {'extend_existing': True}  # Allow redefinition if the table already exists
 
-# Admin View Contact Submissions
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(255), nullable=False)
+    email = db.Column(db.String(255), nullable=False)
+    message = db.Column(db.Text, nullable=False)
+    timestamp = db.Column(db.DateTime, default=datetime.utcnow)
+
+    def __repr__(self):
+        return f'<ContactSubmission {self.name}>'
+
+
+# Contact Us form submission route
+@app.route('/contact', methods=['GET', 'POST'])
+def contact_us():
+    if request.method == 'POST':
+        name = request.form.get('name')
+        email = request.form.get('email')
+        message = request.form.get('message')
+
+        if not all([name, email, message]):
+            flash('Please fill in all fields', 'danger')
+            return redirect(url_for('contact_us'))
+
+        # Save the message to the database
+        contact_submission = ContactSubmission(name=name, email=email, message=message)
+        db.session.add(contact_submission)
+        db.session.commit()
+
+        flash('Your message has been sent successfully!', 'success')
+        return redirect(url_for('home'))  # Redirect to home page after form submission
+
+    return render_template('contact_us.html')
+
+# Admin route to view contact submissions
 @app.route('/contact_submissions')
 def view_contact_submissions():
-    if 'username' not in session:
-        flash('Please log in to view contact submissions', 'warning')
-        return redirect(url_for('login'))
-    
-    if session['username'] not in ['admin', 'Bad']:
+    if 'username' not in session or session['username'] not in ['admin', 'Bad']:
         flash('Access denied.', 'danger')
         return redirect(url_for('dashboard'))
     
+    # Fetch all contact submissions
     submissions = ContactSubmission.query.all()
     return render_template('contact_submissions.html', submissions=submissions)
 
