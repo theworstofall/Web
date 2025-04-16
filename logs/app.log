@@ -995,3 +995,14 @@ jinja2.exceptions.UndefinedError: 'datetime' is undefined
 2025-04-17 03:24:56,087 - INFO - 127.0.0.1 - - [17/Apr/2025 03:24:56] "GET /login HTTP/1.1" 200 -
 2025-04-17 03:24:58,463 - DEBUG - Rendering home page; current year: 2025
 2025-04-17 03:24:58,472 - INFO - 127.0.0.1 - - [17/Apr/2025 03:24:58] "GET / HTTP/1.1" 200 -
+2025-04-17 03:33:04,951 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.123.1:5000
+2025-04-17 03:33:04,953 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-17 03:33:04,961 - INFO -  * Restarting with stat
+2025-04-17 03:33:12,018 - WARNING -  * Debugger is active!
+2025-04-17 03:33:12,049 - INFO -  * Debugger PIN: 785-329-447
+2025-04-17 03:33:15,432 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 03:33:15,708 - INFO - 127.0.0.1 - - [17/Apr/2025 03:33:15] "GET / HTTP/1.1" 200 -
+2025-04-17 03:33:18,687 - INFO - 127.0.0.1 - - [17/Apr/2025 03:33:18] "GET /login HTTP/1.1" 200 -
