@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Contact Form Submissions | My Website{% endblock %}
+{% block content %}
+<div class="card card-form">
+  <div class="card-body">
+    <h2 class="card-title">Contact Form Submissions</h2>
+    {% if submissions %}
+      <ul class="list-group">
+        {% for submission in submissions %}
+        <li class="list-group-item">
+          <strong>Name:</strong> {{ submission.name }}<br>
+          <strong>Email:</strong> {{ submission.email }}<br>
+          <strong>Message:</strong> {{ submission.message }}<br>
+          <small><em>{{ submission.timestamp }}</em></small>
+        </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>No submissions yet.</p>
+    {% endif %}
+    <a href="{{ url_for('dashboard') }}" class="btn btn-secondary mt-3">Back to Dashboard</a>
+  </div>
+</div>
+{% endblock %}

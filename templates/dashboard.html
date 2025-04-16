@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard | My Website{% endblock %}
+
+{% block content %}
+<div class="card">
+  <div class="card-body">
+    <h2 class="card-title">Dashboard</h2>
+    <p class="card-text">Welcome to your dashboard, {{ username }}.</p>
+
+    <!-- User Information Section -->
+    <h4 class="mt-4">Your Information</h4>
+    <ul class="list-group mb-4">
+      <li class="list-group-item"><strong>Username:</strong> {{ username }}</li>
+      <li class="list-group-item"><strong>Email:</strong> {{ user_info.email }}</li>
+      <li class="list-group-item">
+        <strong>Password:</strong>
+        <input type="password" id="display_password" value="********" readonly>
+        <button type="button" class="btn btn-link" onclick="toggleDisplayPassword()">
+          <i class="fa fa-eye" aria-hidden="true" id="toggleIcon"></i>
+        </button>
+        <a href="{{ url_for('change_password') }}" class="btn btn-link">Change Password</a>
+      </li>
+    </ul>
+
+    <!-- Contact Us Form -->
+    <h4 class="mt-4">Contact Us</h4>
+    <form action="{{ url_for('contact_us') }}" method="POST">
+      <div class="mb-3">
+        <label for="contact_name" class="form-label">Your Name</label>
+        <input type="text" class="form-control" id="contact_name" name="name" placeholder="Enter your name" required>
+      </div>
+      <div class="mb-3">
+        <label for="contact_email" class="form-label">Your Email</label>
+        <input type="email" class="form-control" id="contact_email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="mb-3">
+        <label for="contact_message" class="form-label">Message</label>
+        <textarea class="form-control" id="contact_message" name="message" rows="5" placeholder="Write your message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary w-100">Send Message</button>
+    </form>
+
+    <hr>
+    <a href="{{ url_for('home') }}" class="btn btn-secondary mt-3">Back to Home</a>
+    <a href="{{ url_for('view_contact_submissions') }}" class="btn btn-info mt-3">View Submitted Contact Forms</a>
+  </div>
+</div>
+
+<script>
+  function toggleDisplayPassword() {
+    const pwdField = document.getElementById('display_password');
+    const toggleIcon = document.getElementById('toggleIcon');
+    if (pwdField.type === 'password') {
+      pwdField.type = 'text';
+      toggleIcon.className = 'fa fa-eye-slash';
+    } else {
+      pwdField.type = 'password';
+      toggleIcon.className = 'fa fa-eye';
+    }
+  }
+</script>
+{% endblock %}

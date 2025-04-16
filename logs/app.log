@@ -1,0 +1,497 @@
+2025-04-16 18:47:09,266 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 18:47:09,292 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.18.4:5000
+2025-04-16 18:47:09,292 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 18:47:09,294 - INFO -  * Restarting with stat
+2025-04-16 18:47:11,157 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 18:47:11,174 - WARNING -  * Debugger is active!
+2025-04-16 18:47:11,179 - INFO -  * Debugger PIN: 684-432-441
+2025-04-16 18:47:21,565 - INFO - 192.168.18.4 - - [16/Apr/2025 18:47:21] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2025-04-16 18:47:21,686 - INFO - 192.168.18.4 - - [16/Apr/2025 18:47:21] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-16 18:47:21,717 - INFO - 192.168.18.4 - - [16/Apr/2025 18:47:21] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-16 18:47:21,747 - INFO - 192.168.18.4 - - [16/Apr/2025 18:47:21] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=v4w2unaqwCoO84wSWfts HTTP/1.1" 200 -
+2025-04-16 18:47:21,766 - INFO - 192.168.18.4 - - [16/Apr/2025 18:47:21] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-16 18:48:11,604 - INFO -  * Detected change in 'C:\\Users\\User\\OneDrive\\Documents\\Desktop\\web\\app.py', reloading
+2025-04-16 18:48:13,043 - INFO -  * Restarting with stat
+2025-04-16 18:48:16,242 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 18:48:16,262 - WARNING -  * Debugger is active!
+2025-04-16 18:48:16,268 - INFO -  * Debugger PIN: 684-432-441
+2025-04-16 18:48:26,043 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 18:48:26,070 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.18.4:5000
+2025-04-16 18:48:26,070 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 18:48:26,072 - INFO -  * Restarting with stat
+2025-04-16 18:48:27,900 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 18:48:27,916 - WARNING -  * Debugger is active!
+2025-04-16 18:48:27,921 - INFO -  * Debugger PIN: 684-432-441
+2025-04-16 18:48:48,431 - INFO - 192.168.18.4 - - [16/Apr/2025 18:48:48] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2025-04-16 18:48:48,552 - INFO - 192.168.18.4 - - [16/Apr/2025 18:48:48] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-16 18:48:48,558 - INFO - 192.168.18.4 - - [16/Apr/2025 18:48:48] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-16 18:48:48,584 - INFO - 192.168.18.4 - - [16/Apr/2025 18:48:48] "GET /register?__debugger__=yes&cmd=resource&f=console.png&s=i80yFZtfVKxZ2JKaGgvr HTTP/1.1" 200 -
+2025-04-16 18:48:48,592 - INFO - 192.168.18.4 - - [16/Apr/2025 18:48:48] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-16 18:49:46,888 - INFO -  * Detected change in 'C:\\Users\\User\\OneDrive\\Documents\\Desktop\\web\\config\\config.py', reloading
+2025-04-16 18:49:50,023 - INFO -  * Restarting with stat
+2025-04-16 18:49:52,774 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 18:49:52,796 - WARNING -  * Debugger is active!
+2025-04-16 18:49:52,801 - INFO -  * Debugger PIN: 684-432-441
+2025-04-16 18:50:26,807 - INFO -  * Detected change in 'C:\\Users\\User\\OneDrive\\Documents\\Desktop\\web\\config\\config.py', reloading
+2025-04-16 18:50:30,599 - INFO -  * Restarting with stat
+2025-04-16 18:50:33,235 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 18:50:33,256 - WARNING -  * Debugger is active!
+2025-04-16 18:50:33,264 - INFO -  * Debugger PIN: 684-432-441
+2025-04-16 18:51:46,214 - INFO -  * Detected change in 'C:\\Users\\User\\OneDrive\\Documents\\Desktop\\web\\app.py', reloading
+2025-04-16 18:51:48,569 - INFO -  * Restarting with stat
+2025-04-16 18:53:48,882 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 18:53:48,910 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.18.4:5000
+2025-04-16 18:53:48,910 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 18:53:48,912 - INFO -  * Restarting with stat
+2025-04-16 18:53:51,709 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 18:53:51,748 - WARNING -  * Debugger is active!
+2025-04-16 18:53:51,758 - INFO -  * Debugger PIN: 684-432-441
+2025-04-16 18:53:54,795 - WARNING - Registration failed: Username Bad already exists.
+2025-04-16 18:53:54,797 - INFO - 192.168.18.4 - - [16/Apr/2025 18:53:54] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-16 18:53:54,846 - INFO - 192.168.18.4 - - [16/Apr/2025 18:53:54] "GET /register HTTP/1.1" 200 -
+2025-04-16 18:54:13,176 - WARNING - Registration failed: Username Bad already exists.
+2025-04-16 18:54:13,178 - INFO - 192.168.18.4 - - [16/Apr/2025 18:54:13] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-16 18:54:13,195 - INFO - 192.168.18.4 - - [16/Apr/2025 18:54:13] "GET /register HTTP/1.1" 200 -
+2025-04-16 18:54:17,424 - INFO - 192.168.18.4 - - [16/Apr/2025 18:54:17] "GET /login HTTP/1.1" 200 -
+2025-04-16 18:54:21,976 - INFO - User Bad logged in successfully.
+2025-04-16 18:54:21,977 - INFO - 192.168.18.4 - - [16/Apr/2025 18:54:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-16 18:54:21,982 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 18:54:21,989 - INFO - 192.168.18.4 - - [16/Apr/2025 18:54:21] "GET / HTTP/1.1" 200 -
+2025-04-16 18:54:28,403 - INFO - User Bad logged out.
+2025-04-16 18:54:28,405 - INFO - 192.168.18.4 - - [16/Apr/2025 18:54:28] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-16 18:54:28,413 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 18:54:28,419 - INFO - 192.168.18.4 - - [16/Apr/2025 18:54:28] "GET / HTTP/1.1" 200 -
+2025-04-16 18:54:29,716 - INFO - 192.168.18.4 - - [16/Apr/2025 18:54:29] "GET /register HTTP/1.1" 200 -
+2025-04-16 18:54:37,204 - INFO - 192.168.18.4 - - [16/Apr/2025 18:54:37] "GET /login HTTP/1.1" 200 -
+2025-04-16 18:54:38,295 - INFO - 192.168.18.4 - - [16/Apr/2025 18:54:38] "GET /forgot_password HTTP/1.1" 200 -
+2025-04-16 18:54:40,691 - WARNING - Password reset requested for unknown email: dangolsujan2018@gmail.com
+2025-04-16 18:54:40,693 - INFO - 192.168.18.4 - - [16/Apr/2025 18:54:40] "[32mPOST /forgot_password HTTP/1.1[0m" 302 -
+2025-04-16 18:54:40,704 - INFO - 192.168.18.4 - - [16/Apr/2025 18:54:40] "GET /login HTTP/1.1" 200 -
+2025-04-16 18:54:43,172 - INFO - 192.168.18.4 - - [16/Apr/2025 18:54:43] "GET /forgot_password HTTP/1.1" 200 -
+2025-04-16 18:54:45,808 - ERROR - Error sending email to sujandangol2018@gmail.com: [Errno 11001] getaddrinfo failed
+2025-04-16 18:54:45,811 - INFO - 192.168.18.4 - - [16/Apr/2025 18:54:45] "[32mPOST /forgot_password HTTP/1.1[0m" 302 -
+2025-04-16 18:54:45,835 - INFO - 192.168.18.4 - - [16/Apr/2025 18:54:45] "GET /login HTTP/1.1" 200 -
+2025-04-16 18:56:21,486 - INFO -  * Detected change in 'C:\\Users\\User\\OneDrive\\Documents\\Desktop\\web\\config\\config.py', reloading
+2025-04-16 18:56:23,631 - INFO -  * Restarting with stat
+2025-04-16 18:56:26,234 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 18:56:26,254 - WARNING -  * Debugger is active!
+2025-04-16 18:56:26,259 - INFO -  * Debugger PIN: 684-432-441
+2025-04-16 18:56:32,550 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 18:56:32,582 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.18.4:5000
+2025-04-16 18:56:32,582 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 18:56:32,585 - INFO -  * Restarting with stat
+2025-04-16 18:56:34,590 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 18:56:34,608 - WARNING -  * Debugger is active!
+2025-04-16 18:56:34,614 - INFO -  * Debugger PIN: 684-432-441
+2025-04-16 18:57:38,373 - INFO -  * Detected change in 'C:\\Users\\User\\OneDrive\\Documents\\Desktop\\web\\app.py', reloading
+2025-04-16 18:57:39,948 - INFO -  * Restarting with stat
+2025-04-16 18:57:44,670 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 18:57:44,695 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.18.4:5000
+2025-04-16 18:57:44,695 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 18:57:44,698 - INFO -  * Restarting with stat
+2025-04-16 18:57:46,622 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 18:57:46,642 - WARNING -  * Debugger is active!
+2025-04-16 18:57:46,647 - INFO -  * Debugger PIN: 684-432-441
+2025-04-16 18:57:49,340 - INFO - 192.168.18.4 - - [16/Apr/2025 18:57:49] "GET /login HTTP/1.1" 200 -
+2025-04-16 18:57:52,143 - INFO - 192.168.18.4 - - [16/Apr/2025 18:57:52] "GET /forgot_password HTTP/1.1" 200 -
+2025-04-16 18:57:56,999 - ERROR - Error sending email to sujandangol2018@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-22c33ef10d1sm13222925ad.12 - gsmtp')
+2025-04-16 18:57:57,004 - INFO - 192.168.18.4 - - [16/Apr/2025 18:57:57] "[32mPOST /forgot_password HTTP/1.1[0m" 302 -
+2025-04-16 18:57:57,028 - INFO - 192.168.18.4 - - [16/Apr/2025 18:57:57] "GET /login HTTP/1.1" 200 -
+2025-04-16 19:03:19,780 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 19:03:19,810 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.18.4:5000
+2025-04-16 19:03:19,810 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 19:03:19,813 - INFO -  * Restarting with stat
+2025-04-16 19:03:22,166 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 19:03:22,185 - WARNING -  * Debugger is active!
+2025-04-16 19:03:22,190 - INFO -  * Debugger PIN: 684-432-441
+2025-04-16 19:03:22,270 - INFO - 192.168.18.4 - - [16/Apr/2025 19:03:22] "GET /forgot_password HTTP/1.1" 200 -
+2025-04-16 19:03:27,656 - ERROR - Error sending email to sujandangol2018@gmail.com: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-73bd21c4db9sm10639276b3a.58 - gsmtp')
+2025-04-16 19:03:27,660 - INFO - 192.168.18.4 - - [16/Apr/2025 19:03:27] "[32mPOST /forgot_password HTTP/1.1[0m" 302 -
+2025-04-16 19:03:27,693 - INFO - 192.168.18.4 - - [16/Apr/2025 19:03:27] "GET /login HTTP/1.1" 200 -
+2025-04-16 19:09:44,121 - INFO -  * Detected change in 'C:\\Users\\User\\OneDrive\\Documents\\Desktop\\web\\config\\config.py', reloading
+2025-04-16 19:09:51,679 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 19:09:51,719 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.18.4:5000
+2025-04-16 19:09:51,720 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 19:09:51,722 - INFO -  * Restarting with stat
+2025-04-16 19:09:55,356 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 19:09:55,383 - WARNING -  * Debugger is active!
+2025-04-16 19:09:55,394 - INFO -  * Debugger PIN: 684-432-441
+2025-04-16 19:09:55,994 - INFO - 192.168.18.4 - - [16/Apr/2025 19:09:55] "GET /login HTTP/1.1" 200 -
+2025-04-16 19:09:57,311 - INFO - 192.168.18.4 - - [16/Apr/2025 19:09:57] "GET /forgot_password HTTP/1.1" 200 -
+2025-04-16 19:10:04,279 - INFO - Password reset code sent to sujandangol2018@gmail.com. Code: 180118
+2025-04-16 19:10:04,283 - INFO - 192.168.18.4 - - [16/Apr/2025 19:10:04] "[32mPOST /forgot_password HTTP/1.1[0m" 302 -
+2025-04-16 19:10:04,306 - INFO - 192.168.18.4 - - [16/Apr/2025 19:10:04] "GET /login HTTP/1.1" 200 -
+2025-04-16 19:13:34,918 - INFO -  * Detected change in 'C:\\Users\\User\\OneDrive\\Documents\\Desktop\\web\\app.py', reloading
+2025-04-16 19:13:41,839 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 19:13:41,870 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.18.4:5000
+2025-04-16 19:13:41,870 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 19:13:41,874 - INFO -  * Restarting with stat
+2025-04-16 19:13:44,078 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 19:13:44,099 - WARNING -  * Debugger is active!
+2025-04-16 19:13:44,104 - INFO -  * Debugger PIN: 684-432-441
+2025-04-16 19:13:44,188 - INFO - 192.168.18.4 - - [16/Apr/2025 19:13:44] "GET /login HTTP/1.1" 200 -
+2025-04-16 19:13:46,736 - INFO - 192.168.18.4 - - [16/Apr/2025 19:13:46] "GET /forgot_password HTTP/1.1" 200 -
+2025-04-16 19:13:52,482 - INFO - Password reset code sent to sujandangol2018@gmail.com. Code: 527909
+2025-04-16 19:13:52,486 - INFO - 192.168.18.4 - - [16/Apr/2025 19:13:52] "[32mPOST /forgot_password HTTP/1.1[0m" 302 -
+2025-04-16 19:13:52,504 - INFO - 192.168.18.4 - - [16/Apr/2025 19:13:52] "GET /login HTTP/1.1" 200 -
+2025-04-16 19:17:21,803 - INFO -  * Detected change in 'C:\\Users\\User\\OneDrive\\Documents\\Desktop\\web\\app.py', reloading
+2025-04-16 19:17:23,514 - INFO -  * Restarting with stat
+2025-04-16 19:17:29,330 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 19:17:29,360 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.18.4:5000
+2025-04-16 19:17:29,360 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 19:17:29,362 - INFO -  * Restarting with stat
+2025-04-16 19:17:31,501 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 19:17:31,518 - WARNING -  * Debugger is active!
+2025-04-16 19:17:31,523 - INFO -  * Debugger PIN: 684-432-441
+2025-04-16 19:17:31,802 - INFO - 192.168.18.4 - - [16/Apr/2025 19:17:31] "GET /login HTTP/1.1" 200 -
+2025-04-16 19:17:33,576 - INFO - 192.168.18.4 - - [16/Apr/2025 19:17:33] "GET /forgot_password HTTP/1.1" 200 -
+2025-04-16 19:17:39,659 - INFO - Password reset code sent to sujandangol2018@gmail.com. Code: 133235
+2025-04-16 19:17:39,662 - INFO - 192.168.18.4 - - [16/Apr/2025 19:17:39] "[32mPOST /forgot_password HTTP/1.1[0m" 302 -
+2025-04-16 19:17:39,704 - INFO - 192.168.18.4 - - [16/Apr/2025 19:17:39] "GET /verify_reset_code HTTP/1.1" 200 -
+2025-04-16 19:17:47,426 - INFO - 192.168.18.4 - - [16/Apr/2025 19:17:47] "[32mPOST /verify_reset_code HTTP/1.1[0m" 302 -
+2025-04-16 19:17:47,454 - INFO - 192.168.18.4 - - [16/Apr/2025 19:17:47] "GET /reset_password HTTP/1.1" 200 -
+2025-04-16 19:19:47,396 - INFO - 192.168.18.4 - - [16/Apr/2025 19:19:47] "GET /reset_password HTTP/1.1" 200 -
+2025-04-16 19:20:12,261 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 19:20:12,266 - INFO - 192.168.18.2 - - [16/Apr/2025 19:20:12] "GET / HTTP/1.1" 200 -
+2025-04-16 19:20:14,465 - INFO - 192.168.18.2 - - [16/Apr/2025 19:20:14] "GET /register HTTP/1.1" 200 -
+2025-04-16 19:20:32,261 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 19:20:32,262 - INFO - 192.168.18.4 - - [16/Apr/2025 19:20:32] "GET / HTTP/1.1" 200 -
+2025-04-16 19:21:03,657 - INFO - New user registered: dldangol
+2025-04-16 19:21:03,659 - INFO - 192.168.18.2 - - [16/Apr/2025 19:21:03] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-16 19:21:03,667 - INFO - 192.168.18.2 - - [16/Apr/2025 19:21:03] "GET /login HTTP/1.1" 200 -
+2025-04-16 19:21:22,962 - INFO - User dldangol logged in successfully.
+2025-04-16 19:21:22,963 - INFO - 192.168.18.2 - - [16/Apr/2025 19:21:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-16 19:21:22,974 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 19:21:22,975 - INFO - 192.168.18.2 - - [16/Apr/2025 19:21:22] "GET / HTTP/1.1" 200 -
+2025-04-16 19:21:33,559 - INFO - User dldangol logged out.
+2025-04-16 19:21:33,560 - INFO - 192.168.18.2 - - [16/Apr/2025 19:21:33] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-16 19:21:33,571 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 19:21:33,572 - INFO - 192.168.18.2 - - [16/Apr/2025 19:21:33] "GET / HTTP/1.1" 200 -
+2025-04-16 19:21:35,878 - INFO - 192.168.18.2 - - [16/Apr/2025 19:21:35] "GET /login HTTP/1.1" 200 -
+2025-04-16 19:21:45,610 - INFO - 192.168.18.2 - - [16/Apr/2025 19:21:45] "GET /forgot_password HTTP/1.1" 200 -
+2025-04-16 19:21:56,462 - INFO - Password reset code sent to dldangol7@gmail.com. Code: 882110
+2025-04-16 19:21:56,463 - INFO - 192.168.18.2 - - [16/Apr/2025 19:21:56] "[32mPOST /forgot_password HTTP/1.1[0m" 302 -
+2025-04-16 19:21:56,475 - INFO - 192.168.18.2 - - [16/Apr/2025 19:21:56] "GET /verify_reset_code HTTP/1.1" 200 -
+2025-04-16 19:22:53,262 - INFO - 192.168.18.2 - - [16/Apr/2025 19:22:53] "[32mPOST /verify_reset_code HTTP/1.1[0m" 302 -
+2025-04-16 19:22:53,273 - INFO - 192.168.18.2 - - [16/Apr/2025 19:22:53] "GET /reset_password HTTP/1.1" 200 -
+2025-04-16 19:23:00,605 - WARNING - Dashboard access attempted without login.
+2025-04-16 19:23:00,606 - INFO - 192.168.18.4 - - [16/Apr/2025 19:23:00] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-04-16 19:23:00,618 - INFO - 192.168.18.4 - - [16/Apr/2025 19:23:00] "GET /login HTTP/1.1" 200 -
+2025-04-16 19:23:02,109 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 19:23:02,110 - INFO - 192.168.18.4 - - [16/Apr/2025 19:23:02] "GET / HTTP/1.1" 200 -
+2025-04-16 19:23:12,145 - INFO - Password reset successfully for user dldangol
+2025-04-16 19:23:12,146 - INFO - 192.168.18.2 - - [16/Apr/2025 19:23:12] "[32mPOST /reset_password HTTP/1.1[0m" 302 -
+2025-04-16 19:23:12,157 - INFO - 192.168.18.2 - - [16/Apr/2025 19:23:12] "GET /login HTTP/1.1" 200 -
+2025-04-16 19:23:37,312 - INFO - User dldangol logged in successfully.
+2025-04-16 19:23:37,313 - INFO - 192.168.18.2 - - [16/Apr/2025 19:23:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-16 19:23:37,318 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 19:23:37,319 - INFO - 192.168.18.2 - - [16/Apr/2025 19:23:37] "GET / HTTP/1.1" 200 -
+2025-04-16 19:23:40,354 - DEBUG - User dldangol accessed dashboard; user_info: <User 2>
+2025-04-16 19:23:40,403 - INFO - 192.168.18.2 - - [16/Apr/2025 19:23:40] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-04-16 19:24:25,526 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 19:24:25,577 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.18.4:5000
+2025-04-16 19:24:25,577 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 19:24:25,581 - INFO -  * Restarting with stat
+2025-04-16 19:24:27,445 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 19:24:27,462 - WARNING -  * Debugger is active!
+2025-04-16 19:24:27,467 - INFO -  * Debugger PIN: 684-432-441
+2025-04-16 19:24:31,489 - DEBUG - User dldangol accessed dashboard; user_info: <User 2>
+2025-04-16 19:24:31,535 - INFO - 192.168.18.2 - - [16/Apr/2025 19:24:31] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-04-16 19:24:31,648 - INFO - 192.168.18.2 - - [16/Apr/2025 19:24:31] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-16 19:24:31,654 - INFO - 192.168.18.2 - - [16/Apr/2025 19:24:31] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-16 19:24:31,721 - INFO - 192.168.18.2 - - [16/Apr/2025 19:24:31] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=hHvb4dLN9ekJzcDTPg73 HTTP/1.1" 200 -
+2025-04-16 19:24:31,787 - INFO - 192.168.18.2 - - [16/Apr/2025 19:24:31] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-16 19:24:34,672 - DEBUG - User dldangol accessed dashboard; user_info: <User 2>
+2025-04-16 19:24:34,687 - INFO - 192.168.18.2 - - [16/Apr/2025 19:24:34] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-04-16 19:24:34,705 - INFO - 192.168.18.2 - - [16/Apr/2025 19:24:34] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-16 19:24:34,722 - INFO - 192.168.18.2 - - [16/Apr/2025 19:24:34] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-16 19:24:34,735 - INFO - 192.168.18.2 - - [16/Apr/2025 19:24:34] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=hHvb4dLN9ekJzcDTPg73 HTTP/1.1[0m" 304 -
+2025-04-16 19:24:39,505 - INFO - User dldangol logged in successfully.
+2025-04-16 19:24:39,506 - INFO - 192.168.18.2 - - [16/Apr/2025 19:24:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-16 19:24:39,515 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 19:24:39,521 - INFO - 192.168.18.2 - - [16/Apr/2025 19:24:39] "GET / HTTP/1.1" 200 -
+2025-04-16 19:24:41,251 - DEBUG - User dldangol accessed dashboard; user_info: <User 2>
+2025-04-16 19:24:41,283 - INFO - 192.168.18.2 - - [16/Apr/2025 19:24:41] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-04-16 19:24:41,305 - INFO - 192.168.18.2 - - [16/Apr/2025 19:24:41] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-16 19:24:41,315 - INFO - 192.168.18.2 - - [16/Apr/2025 19:24:41] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-16 19:24:41,330 - INFO - 192.168.18.2 - - [16/Apr/2025 19:24:41] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=hHvb4dLN9ekJzcDTPg73 HTTP/1.1[0m" 304 -
+2025-04-16 19:24:51,018 - INFO - User dldangol logged in successfully.
+2025-04-16 19:24:51,019 - INFO - 192.168.18.2 - - [16/Apr/2025 19:24:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-16 19:24:51,027 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 19:24:51,028 - INFO - 192.168.18.2 - - [16/Apr/2025 19:24:51] "GET / HTTP/1.1" 200 -
+2025-04-16 19:24:53,270 - DEBUG - User dldangol accessed dashboard; user_info: <User 2>
+2025-04-16 19:24:53,310 - INFO - 192.168.18.2 - - [16/Apr/2025 19:24:53] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-04-16 19:24:53,334 - INFO - 192.168.18.2 - - [16/Apr/2025 19:24:53] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-16 19:24:53,345 - INFO - 192.168.18.2 - - [16/Apr/2025 19:24:53] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-16 19:24:53,358 - INFO - 192.168.18.2 - - [16/Apr/2025 19:24:53] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=hHvb4dLN9ekJzcDTPg73 HTTP/1.1[0m" 304 -
+2025-04-16 19:25:07,287 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:07] "GET /login HTTP/1.1" 200 -
+2025-04-16 19:25:17,822 - INFO - User dldangol logged in successfully.
+2025-04-16 19:25:17,823 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-16 19:25:17,832 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 19:25:17,835 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:17] "GET / HTTP/1.1" 200 -
+2025-04-16 19:25:23,233 - DEBUG - User dldangol accessed dashboard; user_info: <User 2>
+2025-04-16 19:25:23,255 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:23] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-04-16 19:25:23,277 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:23] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-16 19:25:23,285 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:23] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-16 19:25:23,308 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:23] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=hHvb4dLN9ekJzcDTPg73 HTTP/1.1[0m" 304 -
+2025-04-16 19:25:29,127 - INFO - User dldangol logged out.
+2025-04-16 19:25:29,128 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:29] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-16 19:25:29,134 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 19:25:29,136 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:29] "GET / HTTP/1.1" 200 -
+2025-04-16 19:25:30,928 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:30] "GET /login HTTP/1.1" 200 -
+2025-04-16 19:25:40,685 - INFO - User dldangol logged in successfully.
+2025-04-16 19:25:40,685 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:40] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-16 19:25:40,695 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 19:25:40,697 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:40] "GET / HTTP/1.1" 200 -
+2025-04-16 19:25:45,317 - DEBUG - User dldangol accessed dashboard; user_info: <User 2>
+2025-04-16 19:25:45,341 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:45] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-04-16 19:25:45,366 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:45] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-16 19:25:45,375 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:45] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-16 19:25:45,391 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:45] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=hHvb4dLN9ekJzcDTPg73 HTTP/1.1[0m" 304 -
+2025-04-16 19:25:50,834 - DEBUG - User dldangol accessed dashboard; user_info: <User 2>
+2025-04-16 19:25:50,851 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:50] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-04-16 19:25:50,873 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:50] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-16 19:25:50,891 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:50] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-16 19:25:50,900 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:50] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=hHvb4dLN9ekJzcDTPg73 HTTP/1.1[0m" 304 -
+2025-04-16 19:25:53,328 - DEBUG - User dldangol accessed dashboard; user_info: <User 2>
+2025-04-16 19:25:53,348 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:53] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-04-16 19:25:53,371 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:53] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-16 19:25:53,457 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:53] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-16 19:25:53,496 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:53] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=hHvb4dLN9ekJzcDTPg73 HTTP/1.1[0m" 304 -
+2025-04-16 19:25:55,376 - DEBUG - User dldangol accessed dashboard; user_info: <User 2>
+2025-04-16 19:25:55,424 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:55] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-04-16 19:25:55,466 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:55] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-16 19:25:55,477 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:55] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-16 19:25:55,492 - INFO - 192.168.18.2 - - [16/Apr/2025 19:25:55] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=hHvb4dLN9ekJzcDTPg73 HTTP/1.1[0m" 304 -
+2025-04-16 19:26:01,926 - DEBUG - User dldangol accessed dashboard; user_info: <User 2>
+2025-04-16 19:26:01,942 - INFO - 192.168.18.2 - - [16/Apr/2025 19:26:01] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-04-16 19:26:01,966 - INFO - 192.168.18.2 - - [16/Apr/2025 19:26:01] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-16 19:26:01,978 - INFO - 192.168.18.2 - - [16/Apr/2025 19:26:01] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-16 19:26:01,992 - INFO - 192.168.18.2 - - [16/Apr/2025 19:26:01] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=hHvb4dLN9ekJzcDTPg73 HTTP/1.1[0m" 304 -
+2025-04-16 19:26:15,734 - DEBUG - User dldangol accessed dashboard; user_info: <User 2>
+2025-04-16 19:26:15,760 - INFO - 192.168.18.2 - - [16/Apr/2025 19:26:15] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-04-16 19:26:15,780 - INFO - 192.168.18.2 - - [16/Apr/2025 19:26:15] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-16 19:26:15,787 - INFO - 192.168.18.2 - - [16/Apr/2025 19:26:15] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-16 19:26:15,808 - INFO - 192.168.18.2 - - [16/Apr/2025 19:26:15] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=hHvb4dLN9ekJzcDTPg73 HTTP/1.1[0m" 304 -
+2025-04-16 19:26:21,256 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 19:26:21,257 - INFO - 192.168.18.2 - - [16/Apr/2025 19:26:21] "GET / HTTP/1.1" 200 -
+2025-04-16 19:27:00,930 - INFO -  * Detected change in 'C:\\Users\\User\\OneDrive\\Documents\\Desktop\\web\\app.py', reloading
+2025-04-16 19:27:04,933 - INFO -  * Restarting with stat
+2025-04-16 19:27:10,316 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 19:27:10,347 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://192.168.18.4:5000
+2025-04-16 19:27:10,347 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 19:27:10,349 - INFO -  * Restarting with stat
+2025-04-16 19:27:12,306 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 19:27:12,325 - WARNING -  * Debugger is active!
+2025-04-16 19:27:12,330 - INFO -  * Debugger PIN: 684-432-441
+2025-04-16 19:27:16,740 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 19:27:16,782 - INFO - 192.168.18.4 - - [16/Apr/2025 19:27:16] "GET / HTTP/1.1" 200 -
+2025-04-16 19:27:19,309 - WARNING - Dashboard access attempted without login.
+2025-04-16 19:27:19,310 - INFO - 192.168.18.4 - - [16/Apr/2025 19:27:19] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-04-16 19:27:19,330 - INFO - 192.168.18.4 - - [16/Apr/2025 19:27:19] "GET /login HTTP/1.1" 200 -
+2025-04-16 19:27:23,188 - WARNING - Invalid login attempt for user admin.
+2025-04-16 19:27:23,191 - INFO - 192.168.18.4 - - [16/Apr/2025 19:27:23] "POST /login HTTP/1.1" 200 -
+2025-04-16 19:27:28,144 - INFO - User Bad logged in successfully.
+2025-04-16 19:27:28,145 - INFO - 192.168.18.4 - - [16/Apr/2025 19:27:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-16 19:27:28,149 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 19:27:28,151 - INFO - 192.168.18.4 - - [16/Apr/2025 19:27:28] "GET / HTTP/1.1" 200 -
+2025-04-16 19:27:29,550 - DEBUG - User Bad accessed dashboard; user_info: <User 1>
+2025-04-16 19:27:29,560 - INFO - 192.168.18.4 - - [16/Apr/2025 19:27:29] "GET /dashboard HTTP/1.1" 200 -
+2025-04-16 19:27:38,366 - DEBUG - User dldangol accessed dashboard; user_info: <User 2>
+2025-04-16 19:27:38,368 - INFO - 192.168.18.2 - - [16/Apr/2025 19:27:38] "GET /dashboard HTTP/1.1" 200 -
+2025-04-16 19:27:57,475 - INFO - 192.168.18.2 - - [16/Apr/2025 19:27:57] "[32mGET /contact_submissions HTTP/1.1[0m" 302 -
+2025-04-16 19:27:57,488 - DEBUG - User dldangol accessed dashboard; user_info: <User 2>
+2025-04-16 19:27:57,494 - INFO - 192.168.18.2 - - [16/Apr/2025 19:27:57] "GET /dashboard HTTP/1.1" 200 -
+2025-04-16 19:28:06,079 - DEBUG - Displaying all contact submissions: []
+2025-04-16 19:28:06,091 - INFO - 192.168.18.4 - - [16/Apr/2025 19:28:06] "GET /contact_submissions HTTP/1.1" 200 -
+2025-04-16 19:28:07,214 - DEBUG - User Bad accessed dashboard; user_info: <User 1>
+2025-04-16 19:28:07,215 - INFO - 192.168.18.4 - - [16/Apr/2025 19:28:07] "GET /dashboard HTTP/1.1" 200 -
+2025-04-16 19:28:07,581 - DEBUG - User dldangol accessed dashboard; user_info: <User 2>
+2025-04-16 19:28:07,587 - INFO - 192.168.18.2 - - [16/Apr/2025 19:28:07] "GET /dashboard HTTP/1.1" 200 -
+2025-04-16 19:28:15,208 - INFO -  * Detected change in 'C:\\Users\\User\\OneDrive\\Documents\\Desktop\\web\\app.py', reloading
+2025-04-16 19:28:21,248 - INFO -  * Restarting with stat
+2025-04-16 19:49:09,010 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 19:49:43,044 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 19:49:43,083 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.18.28:5000
+2025-04-16 19:49:43,083 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 19:49:43,096 - INFO -  * Restarting with stat
+2025-04-16 19:49:46,164 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 19:49:46,181 - WARNING -  * Debugger is active!
+2025-04-16 19:49:46,197 - INFO -  * Debugger PIN: 785-329-447
+2025-04-16 19:50:01,729 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 19:50:01,837 - INFO - 127.0.0.1 - - [16/Apr/2025 19:50:01] "GET / HTTP/1.1" 200 -
+2025-04-16 19:50:02,763 - INFO - 127.0.0.1 - - [16/Apr/2025 19:50:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-16 19:50:07,830 - INFO - 127.0.0.1 - - [16/Apr/2025 19:50:07] "GET /login HTTP/1.1" 200 -
+2025-04-16 19:50:12,308 - INFO - 127.0.0.1 - - [16/Apr/2025 19:50:12] "GET /forgot_password HTTP/1.1" 200 -
+2025-04-16 19:50:30,745 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 19:50:30,745 - INFO - 127.0.0.1 - - [16/Apr/2025 19:50:30] "GET / HTTP/1.1" 200 -
+2025-04-16 19:50:47,393 - INFO - 127.0.0.1 - - [16/Apr/2025 19:50:47] "GET /register HTTP/1.1" 200 -
+2025-04-16 19:51:28,195 - ERROR - Registration failed: Password mismatch.
+2025-04-16 19:51:28,199 - INFO - 127.0.0.1 - - [16/Apr/2025 19:51:28] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-16 19:51:28,216 - INFO - 127.0.0.1 - - [16/Apr/2025 19:51:28] "GET /register HTTP/1.1" 200 -
+2025-04-16 19:52:13,227 - INFO - New user registered: hello world
+2025-04-16 19:52:13,229 - INFO - 127.0.0.1 - - [16/Apr/2025 19:52:13] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-04-16 19:52:13,243 - INFO - 127.0.0.1 - - [16/Apr/2025 19:52:13] "GET /login HTTP/1.1" 200 -
+2025-04-16 19:52:14,383 - INFO -  * Detected change in 'C:\\Users\\User\\Downloads\\web\\instances\\app.py', reloading
+2025-04-16 19:53:17,686 - INFO -  * Restarting with stat
+2025-04-16 19:53:20,430 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 19:53:20,446 - WARNING -  * Debugger is active!
+2025-04-16 19:53:20,462 - INFO -  * Debugger PIN: 785-329-447
+2025-04-16 19:53:20,920 - INFO - User hello world logged in successfully.
+2025-04-16 19:53:20,920 - INFO - 127.0.0.1 - - [16/Apr/2025 19:53:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-16 19:53:20,944 - INFO - User hello world logged in successfully.
+2025-04-16 19:53:20,947 - INFO - 127.0.0.1 - - [16/Apr/2025 19:53:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-16 19:53:21,275 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 19:53:21,327 - INFO - 127.0.0.1 - - [16/Apr/2025 19:53:21] "GET / HTTP/1.1" 200 -
+2025-04-16 21:08:11,910 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 21:08:11,968 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.123.1:5000
+2025-04-16 21:08:11,968 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 21:08:11,974 - INFO -  * Restarting with stat
+2025-04-16 21:08:14,732 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 21:08:14,742 - WARNING -  * Debugger is active!
+2025-04-16 21:08:14,768 - INFO -  * Debugger PIN: 785-329-447
+2025-04-16 21:08:50,335 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 21:08:50,385 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.123.1:5000
+2025-04-16 21:08:50,385 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 21:08:50,385 - INFO -  * Restarting with stat
+2025-04-16 21:08:51,322 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 21:08:51,338 - WARNING -  * Debugger is active!
+2025-04-16 21:08:51,338 - INFO -  * Debugger PIN: 105-193-331
+2025-04-16 21:10:13,920 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 21:10:14,469 - INFO - 192.168.123.1 - - [16/Apr/2025 21:10:14] "GET / HTTP/1.1" 200 -
+2025-04-16 21:10:14,837 - INFO - 192.168.123.1 - - [16/Apr/2025 21:10:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-16 21:10:17,582 - INFO - 192.168.123.1 - - [16/Apr/2025 21:10:17] "GET /login HTTP/1.1" 200 -
+2025-04-16 21:10:26,984 - INFO - User Bad logged in successfully.
+2025-04-16 21:10:26,984 - INFO - 192.168.123.1 - - [16/Apr/2025 21:10:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-16 21:10:27,001 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 21:10:27,001 - INFO - 192.168.123.1 - - [16/Apr/2025 21:10:27] "GET / HTTP/1.1" 200 -
+2025-04-16 21:10:30,820 - INFO - User Bad logged out.
+2025-04-16 21:10:30,820 - INFO - 192.168.123.1 - - [16/Apr/2025 21:10:30] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-16 21:10:30,827 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 21:10:30,828 - INFO - 192.168.123.1 - - [16/Apr/2025 21:10:30] "GET / HTTP/1.1" 200 -
+2025-04-16 21:11:30,396 - INFO - 192.168.123.1 - - [16/Apr/2025 21:11:30] "GET /login HTTP/1.1" 200 -
+2025-04-16 21:11:37,375 - INFO - 192.168.123.1 - - [16/Apr/2025 21:11:37] "GET /forgot_password HTTP/1.1" 200 -
+2025-04-16 21:12:30,354 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 21:12:30,363 - INFO - 192.168.123.1 - - [16/Apr/2025 21:12:30] "GET / HTTP/1.1" 200 -
+2025-04-16 21:12:38,232 - INFO - 192.168.123.1 - - [16/Apr/2025 21:12:38] "GET /register HTTP/1.1" 200 -
+2025-04-16 21:12:40,271 - INFO - 192.168.123.1 - - [16/Apr/2025 21:12:40] "GET /login HTTP/1.1" 200 -
+2025-04-16 21:12:42,317 - INFO - 192.168.123.1 - - [16/Apr/2025 21:12:42] "GET /forgot_password HTTP/1.1" 200 -
+2025-04-16 21:12:50,499 - INFO - 192.168.123.1 - - [16/Apr/2025 21:12:50] "GET /login HTTP/1.1" 200 -
+2025-04-16 21:12:54,167 - WARNING - Invalid login attempt for user admin.
+2025-04-16 21:12:54,169 - INFO - 192.168.123.1 - - [16/Apr/2025 21:12:54] "POST /login HTTP/1.1" 200 -
+2025-04-16 21:12:59,532 - INFO - User Bad logged in successfully.
+2025-04-16 21:12:59,533 - INFO - 192.168.123.1 - - [16/Apr/2025 21:12:59] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-16 21:12:59,540 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 21:12:59,541 - INFO - 192.168.123.1 - - [16/Apr/2025 21:12:59] "GET / HTTP/1.1" 200 -
+2025-04-16 21:13:01,241 - DEBUG - User Bad accessed dashboard; user_info: <User 1>
+2025-04-16 21:13:01,610 - INFO - 192.168.123.1 - - [16/Apr/2025 21:13:01] "GET /dashboard HTTP/1.1" 200 -
+2025-04-16 21:13:08,401 - DEBUG - Displaying all contact submissions: []
+2025-04-16 21:13:08,464 - INFO - 192.168.123.1 - - [16/Apr/2025 21:13:08] "GET /contact_submissions HTTP/1.1" 200 -
+2025-04-16 21:13:12,439 - DEBUG - User Bad accessed dashboard; user_info: <User 1>
+2025-04-16 21:13:12,441 - INFO - 192.168.123.1 - - [16/Apr/2025 21:13:12] "GET /dashboard HTTP/1.1" 200 -
+2025-04-16 21:13:14,868 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 21:13:14,869 - INFO - 192.168.123.1 - - [16/Apr/2025 21:13:14] "GET / HTTP/1.1" 200 -
+2025-04-16 21:13:20,066 - INFO - User Bad logged out.
+2025-04-16 21:13:20,068 - INFO - 192.168.123.1 - - [16/Apr/2025 21:13:20] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-16 21:13:20,081 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 21:13:20,083 - INFO - 192.168.123.1 - - [16/Apr/2025 21:13:20] "GET / HTTP/1.1" 200 -
+2025-04-16 21:13:21,612 - INFO - 192.168.123.1 - - [16/Apr/2025 21:13:21] "GET /login HTTP/1.1" 200 -
+2025-04-16 21:13:24,013 - INFO - 192.168.123.1 - - [16/Apr/2025 21:13:24] "GET /forgot_password HTTP/1.1" 200 -
+2025-04-16 21:13:34,724 - INFO - Password reset code sent to sujandangol2018@gmail.com. Code: 905205
+2025-04-16 21:13:34,727 - INFO - 192.168.123.1 - - [16/Apr/2025 21:13:34] "[32mPOST /forgot_password HTTP/1.1[0m" 302 -
+2025-04-16 21:13:34,798 - INFO - 192.168.123.1 - - [16/Apr/2025 21:13:34] "GET /verify_reset_code HTTP/1.1" 200 -
+2025-04-16 21:14:00,271 - INFO - 192.168.123.1 - - [16/Apr/2025 21:14:00] "[32mPOST /verify_reset_code HTTP/1.1[0m" 302 -
+2025-04-16 21:14:00,673 - INFO - 192.168.123.1 - - [16/Apr/2025 21:14:00] "GET /reset_password HTTP/1.1" 200 -
+2025-04-16 21:14:09,606 - INFO - 192.168.123.1 - - [16/Apr/2025 21:14:09] "GET /login HTTP/1.1" 200 -
+2025-04-16 21:14:12,078 - INFO - 192.168.123.1 - - [16/Apr/2025 21:14:12] "GET /register HTTP/1.1" 200 -
+2025-04-16 21:14:16,435 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 21:14:16,438 - INFO - 192.168.123.1 - - [16/Apr/2025 21:14:16] "GET / HTTP/1.1" 200 -
+2025-04-16 21:14:20,988 - INFO - 192.168.123.1 - - [16/Apr/2025 21:14:20] "GET /register HTTP/1.1" 200 -
+2025-04-16 21:14:37,585 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 21:14:37,587 - INFO - 192.168.123.1 - - [16/Apr/2025 21:14:37] "GET / HTTP/1.1" 200 -
+2025-04-16 21:14:39,213 - INFO - 192.168.123.1 - - [16/Apr/2025 21:14:39] "GET /login HTTP/1.1" 200 -
+2025-04-16 21:14:44,724 - INFO - User Bad logged in successfully.
+2025-04-16 21:14:44,725 - INFO - 192.168.123.1 - - [16/Apr/2025 21:14:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-16 21:14:44,732 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 21:14:44,733 - INFO - 192.168.123.1 - - [16/Apr/2025 21:14:44] "GET / HTTP/1.1" 200 -
+2025-04-16 21:14:46,083 - DEBUG - User Bad accessed dashboard; user_info: <User 1>
+2025-04-16 21:14:46,085 - INFO - 192.168.123.1 - - [16/Apr/2025 21:14:46] "GET /dashboard HTTP/1.1" 200 -
+2025-04-16 21:14:54,084 - INFO - 192.168.123.1 - - [16/Apr/2025 21:14:54] "GET /change_password HTTP/1.1" 200 -
+2025-04-16 21:14:57,575 - DEBUG - User Bad accessed dashboard; user_info: <User 1>
+2025-04-16 21:14:57,578 - INFO - 192.168.123.1 - - [16/Apr/2025 21:14:57] "GET /dashboard HTTP/1.1" 200 -
+2025-04-16 21:15:13,210 - DEBUG - Displaying all contact submissions: []
+2025-04-16 21:15:13,216 - INFO - 192.168.123.1 - - [16/Apr/2025 21:15:13] "GET /contact_submissions HTTP/1.1" 200 -
+2025-04-16 21:15:14,572 - DEBUG - User Bad accessed dashboard; user_info: <User 1>
+2025-04-16 21:15:14,575 - INFO - 192.168.123.1 - - [16/Apr/2025 21:15:14] "GET /dashboard HTTP/1.1" 200 -
+2025-04-16 21:15:29,764 - DEBUG - Received contact submission: <ContactSubmission 1>
+2025-04-16 21:15:29,769 - INFO - 192.168.123.1 - - [16/Apr/2025 21:15:29] "[32mPOST /contact_us HTTP/1.1[0m" 302 -
+2025-04-16 21:15:29,789 - DEBUG - User Bad accessed dashboard; user_info: <User 1>
+2025-04-16 21:15:29,793 - INFO - 192.168.123.1 - - [16/Apr/2025 21:15:29] "GET /dashboard HTTP/1.1" 200 -
+2025-04-16 21:15:31,575 - DEBUG - Displaying all contact submissions: [<ContactSubmission 1>]
+2025-04-16 21:15:31,577 - INFO - 192.168.123.1 - - [16/Apr/2025 21:15:31] "GET /contact_submissions HTTP/1.1" 200 -
+2025-04-16 21:15:52,588 - DEBUG - User Bad accessed dashboard; user_info: <User 1>
+2025-04-16 21:15:52,591 - INFO - 192.168.123.1 - - [16/Apr/2025 21:15:52] "GET /dashboard HTTP/1.1" 200 -
+2025-04-16 21:15:58,346 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 21:15:58,348 - INFO - 192.168.123.1 - - [16/Apr/2025 21:15:58] "GET / HTTP/1.1" 200 -
+2025-04-16 21:16:00,327 - INFO - User Bad logged out.
+2025-04-16 21:16:00,328 - INFO - 192.168.123.1 - - [16/Apr/2025 21:16:00] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-16 21:16:00,355 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 21:16:00,357 - INFO - 192.168.123.1 - - [16/Apr/2025 21:16:00] "GET / HTTP/1.1" 200 -
+2025-04-16 21:21:02,649 - INFO - 192.168.123.1 - - [16/Apr/2025 21:21:02] "GET /login HTTP/1.1" 200 -
+2025-04-16 21:21:08,339 - INFO - User Bad logged in successfully.
+2025-04-16 21:21:08,342 - INFO - 192.168.123.1 - - [16/Apr/2025 21:21:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-16 21:21:08,351 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 21:21:08,353 - INFO - 192.168.123.1 - - [16/Apr/2025 21:21:08] "GET / HTTP/1.1" 200 -
+2025-04-16 21:21:11,550 - DEBUG - User Bad accessed dashboard; user_info: <User 1>
+2025-04-16 21:21:11,552 - INFO - 192.168.123.1 - - [16/Apr/2025 21:21:11] "GET /dashboard HTTP/1.1" 200 -
+2025-04-16 21:22:39,976 - DEBUG - Displaying all contact submissions: [<ContactSubmission 1>]
+2025-04-16 21:22:39,979 - INFO - 192.168.123.1 - - [16/Apr/2025 21:22:39] "GET /contact_submissions HTTP/1.1" 200 -
+2025-04-16 21:27:39,364 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 21:27:39,492 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.123.1:5000
+2025-04-16 21:27:39,492 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 21:27:39,500 - INFO -  * Restarting with stat
+2025-04-16 21:27:42,062 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 21:27:42,086 - WARNING -  * Debugger is active!
+2025-04-16 21:27:42,098 - INFO -  * Debugger PIN: 105-193-331
+2025-04-16 21:27:42,705 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 21:27:42,765 - INFO - 192.168.123.1 - - [16/Apr/2025 21:27:42] "GET / HTTP/1.1" 200 -
+2025-04-16 21:27:46,360 - INFO - User Bad logged out.
+2025-04-16 21:27:46,361 - INFO - 192.168.123.1 - - [16/Apr/2025 21:27:46] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-16 21:27:46,377 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 21:27:46,380 - INFO - 192.168.123.1 - - [16/Apr/2025 21:27:46] "GET / HTTP/1.1" 200 -
+2025-04-16 21:27:47,936 - INFO - 192.168.123.1 - - [16/Apr/2025 21:27:47] "GET /login HTTP/1.1" 200 -
+2025-04-16 21:27:51,738 - WARNING - Invalid login attempt for user asd.
+2025-04-16 21:27:51,742 - INFO - 192.168.123.1 - - [16/Apr/2025 21:27:51] "POST /login HTTP/1.1" 200 -
+2025-04-16 21:35:53,505 - INFO - User Bad logged in successfully.
+2025-04-16 21:35:53,515 - INFO - 192.168.123.1 - - [16/Apr/2025 21:35:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-16 21:35:53,525 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 21:35:53,530 - INFO - 192.168.123.1 - - [16/Apr/2025 21:35:53] "GET / HTTP/1.1" 200 -
+2025-04-16 21:36:14,232 - DEBUG - User Bad accessed dashboard; user_info: <User 1>
+2025-04-16 21:36:14,263 - INFO - 192.168.123.1 - - [16/Apr/2025 21:36:14] "GET /dashboard HTTP/1.1" 200 -
+2025-04-16 21:36:16,064 - DEBUG - Displaying all contact submissions: [<ContactSubmission 1>]
+2025-04-16 21:36:16,077 - INFO - 192.168.123.1 - - [16/Apr/2025 21:36:16] "GET /contact_submissions HTTP/1.1" 200 -
+2025-04-16 21:49:50,084 - INFO -  * Detected change in 'D:\\S\\WebDev\\web\\config\\config.py', reloading
+2025-04-16 21:49:50,959 - INFO -  * Restarting with stat

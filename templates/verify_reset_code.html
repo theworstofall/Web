@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}Verify Reset Code | My Website{% endblock %}
+
+{% block content %}
+<div class="card card-form">
+    <div class="card-body text-center">
+        <h2 class="card-title mb-4">Verify Reset Code</h2>
+        <form method="POST" action="{{ url_for('verify_reset_code') }}">
+            <div class="mb-3">
+                <label for="reset_code" class="form-label">Enter the code sent to your email</label>
+                <input type="text" class="form-control" id="reset_code" name="reset_code" placeholder="6-digit code" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Verify Code</button>
+        </form>
+        <a href="{{ url_for('forgot_password') }}" class="btn btn-secondary mt-3 d-block">Back to Forgot Password</a>
+    </div>
+</div>
+{% endblock %}
