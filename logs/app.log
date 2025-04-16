@@ -495,3 +495,198 @@
 2025-04-16 21:36:16,077 - INFO - 192.168.123.1 - - [16/Apr/2025 21:36:16] "GET /contact_submissions HTTP/1.1" 200 -
 2025-04-16 21:49:50,084 - INFO -  * Detected change in 'D:\\S\\WebDev\\web\\config\\config.py', reloading
 2025-04-16 21:49:50,959 - INFO -  * Restarting with stat
+2025-04-16 23:49:31,790 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 23:49:31,854 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.123.1:5000
+2025-04-16 23:49:31,854 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 23:49:45,881 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 23:49:46,055 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "c:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\S\Web\app.py", line 42, in home
+    return render_template('index.html', current_year=current_year)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "c:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "D:\S\Web\templates\index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "D:\S\Web\templates\base.html", line 120, in top-level template code
+    <p>&copy; {{ datetime.utcnow().year }} Modern Dashboard. All rights reserved.</p>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\User\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 485, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'datetime' is undefined
+2025-04-16 23:49:46,099 - INFO - 127.0.0.1 - - [16/Apr/2025 23:49:46] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-16 23:49:46,966 - INFO - 127.0.0.1 - - [16/Apr/2025 23:49:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-16 23:50:43,089 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 23:50:43,142 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.123.1:5000
+2025-04-16 23:50:43,142 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 23:50:43,146 - INFO -  * Restarting with stat
+2025-04-16 23:50:50,571 - INFO - Starting Flask app on host: 192.168.18.4, port: 5000
+2025-04-16 23:50:50,578 - WARNING -  * Debugger is active!
+2025-04-16 23:50:50,596 - INFO -  * Debugger PIN: 785-329-447
+2025-04-16 23:50:53,201 - DEBUG - Rendering home page; current year: 2025
+2025-04-16 23:50:53,351 - INFO - 127.0.0.1 - - [16/Apr/2025 23:50:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-16 23:51:05,975 - INFO - 127.0.0.1 - - [16/Apr/2025 23:51:05] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-16 23:51:05,986 - INFO - 127.0.0.1 - - [16/Apr/2025 23:51:05] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-16 23:51:09,845 - INFO - 127.0.0.1 - - [16/Apr/2025 23:51:09] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-16 23:51:10,109 - INFO - 127.0.0.1 - - [16/Apr/2025 23:51:10] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-17 00:19:21,971 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.123.1:5000
+2025-04-17 00:19:21,971 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-17 00:19:21,971 - INFO -  * Restarting with stat
+2025-04-17 00:19:24,786 - WARNING -  * Debugger is active!
+2025-04-17 00:19:24,801 - INFO -  * Debugger PIN: 785-329-447
+2025-04-17 00:19:31,945 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:19:32,007 - INFO - 127.0.0.1 - - [17/Apr/2025 00:19:32] "GET / HTTP/1.1" 200 -
+2025-04-17 00:19:44,921 - INFO - 127.0.0.1 - - [17/Apr/2025 00:19:44] "GET /login HTTP/1.1" 200 -
+2025-04-17 00:19:48,259 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:19:48,261 - INFO - 127.0.0.1 - - [17/Apr/2025 00:19:48] "GET / HTTP/1.1" 200 -
+2025-04-17 00:20:03,135 - INFO - 127.0.0.1 - - [17/Apr/2025 00:20:03] "GET /register HTTP/1.1" 200 -
+2025-04-17 00:20:08,272 - INFO - 127.0.0.1 - - [17/Apr/2025 00:20:08] "GET /login HTTP/1.1" 200 -
+2025-04-17 00:20:11,776 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:20:11,778 - INFO - 127.0.0.1 - - [17/Apr/2025 00:20:11] "GET / HTTP/1.1" 200 -
+2025-04-17 00:20:18,241 - INFO - 127.0.0.1 - - [17/Apr/2025 00:20:18] "GET /login HTTP/1.1" 200 -
+2025-04-17 00:20:21,090 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:20:21,093 - INFO - 127.0.0.1 - - [17/Apr/2025 00:20:21] "GET / HTTP/1.1" 200 -
+2025-04-17 00:20:57,633 - INFO - 127.0.0.1 - - [17/Apr/2025 00:20:57] "GET /login HTTP/1.1" 200 -
+2025-04-17 00:21:06,513 - INFO - 127.0.0.1 - - [17/Apr/2025 00:21:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-17 00:21:06,576 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:21:06,581 - INFO - 127.0.0.1 - - [17/Apr/2025 00:21:06] "GET / HTTP/1.1" 200 -
+2025-04-17 00:21:11,030 - INFO - 127.0.0.1 - - [17/Apr/2025 00:21:11] "GET /dashboard HTTP/1.1" 200 -
+2025-04-17 00:21:34,305 - INFO - 127.0.0.1 - - [17/Apr/2025 00:21:34] "GET /dashboard HTTP/1.1" 200 -
+2025-04-17 00:21:35,720 - INFO - 127.0.0.1 - - [17/Apr/2025 00:21:35] "GET /contact_submissions HTTP/1.1" 200 -
+2025-04-17 00:21:37,270 - INFO - 127.0.0.1 - - [17/Apr/2025 00:21:37] "GET /dashboard HTTP/1.1" 200 -
+2025-04-17 00:21:41,394 - INFO - 127.0.0.1 - - [17/Apr/2025 00:21:41] "GET /dashboard HTTP/1.1" 200 -
+2025-04-17 00:21:42,658 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:21:42,661 - INFO - 127.0.0.1 - - [17/Apr/2025 00:21:42] "GET / HTTP/1.1" 200 -
+2025-04-17 00:22:18,073 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:22:18,516 - INFO - 127.0.0.1 - - [17/Apr/2025 00:22:18] "GET / HTTP/1.1" 200 -
+2025-04-17 00:22:22,063 - INFO - 127.0.0.1 - - [17/Apr/2025 00:22:22] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-17 00:22:22,074 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:22:22,079 - INFO - 127.0.0.1 - - [17/Apr/2025 00:22:22] "GET / HTTP/1.1" 200 -
+2025-04-17 00:22:42,178 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:22:42,242 - INFO - 127.0.0.1 - - [17/Apr/2025 00:22:42] "GET / HTTP/1.1" 200 -
+2025-04-17 00:23:01,816 - INFO - 127.0.0.1 - - [17/Apr/2025 00:23:01] "GET /login HTTP/1.1" 200 -
+2025-04-17 00:23:03,906 - INFO - 127.0.0.1 - - [17/Apr/2025 00:23:03] "GET /register HTTP/1.1" 200 -
+2025-04-17 00:23:07,896 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:23:07,896 - INFO - 127.0.0.1 - - [17/Apr/2025 00:23:07] "GET / HTTP/1.1" 200 -
+2025-04-17 00:25:32,137 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:25:32,209 - INFO - 127.0.0.1 - - [17/Apr/2025 00:25:32] "GET / HTTP/1.1" 200 -
+2025-04-17 00:25:58,889 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:25:58,904 - INFO - 127.0.0.1 - - [17/Apr/2025 00:25:58] "GET / HTTP/1.1" 200 -
+2025-04-17 00:26:30,702 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:26:31,420 - INFO - 127.0.0.1 - - [17/Apr/2025 00:26:31] "GET / HTTP/1.1" 200 -
+2025-04-17 00:26:47,336 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:26:47,375 - INFO - 127.0.0.1 - - [17/Apr/2025 00:26:47] "GET / HTTP/1.1" 200 -
+2025-04-17 00:27:54,068 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:27:54,220 - INFO - 127.0.0.1 - - [17/Apr/2025 00:27:54] "GET / HTTP/1.1" 200 -
+2025-04-17 00:27:57,913 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:27:57,929 - INFO - 127.0.0.1 - - [17/Apr/2025 00:27:57] "GET / HTTP/1.1" 200 -
+2025-04-17 00:29:12,992 - INFO - 127.0.0.1 - - [17/Apr/2025 00:29:12] "GET /login HTTP/1.1" 200 -
+2025-04-17 00:29:19,610 - INFO - 127.0.0.1 - - [17/Apr/2025 00:29:19] "GET /login HTTP/1.1" 200 -
+2025-04-17 00:29:28,356 - INFO - 127.0.0.1 - - [17/Apr/2025 00:29:28] "GET /register HTTP/1.1" 200 -
+2025-04-17 00:29:32,770 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:29:32,771 - INFO - 127.0.0.1 - - [17/Apr/2025 00:29:32] "GET / HTTP/1.1" 200 -
+2025-04-17 00:29:37,717 - INFO - 127.0.0.1 - - [17/Apr/2025 00:29:37] "GET /login HTTP/1.1" 200 -
+2025-04-17 00:29:53,765 - INFO - 127.0.0.1 - - [17/Apr/2025 00:29:53] "GET /login HTTP/1.1" 200 -
+2025-04-17 00:29:56,023 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:29:56,023 - INFO - 127.0.0.1 - - [17/Apr/2025 00:29:56] "GET / HTTP/1.1" 200 -
+2025-04-17 00:30:04,832 - INFO - 127.0.0.1 - - [17/Apr/2025 00:30:04] "GET /login HTTP/1.1" 200 -
+2025-04-17 00:30:11,202 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:30:11,224 - INFO - 127.0.0.1 - - [17/Apr/2025 00:30:11] "GET / HTTP/1.1" 200 -
+2025-04-17 00:30:11,330 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:30:11,337 - INFO - 127.0.0.1 - - [17/Apr/2025 00:30:11] "GET / HTTP/1.1" 200 -
+2025-04-17 00:31:20,385 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:31:21,067 - INFO - 127.0.0.1 - - [17/Apr/2025 00:31:21] "GET / HTTP/1.1" 200 -
+2025-04-17 00:31:46,420 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:31:46,500 - INFO - 127.0.0.1 - - [17/Apr/2025 00:31:46] "GET / HTTP/1.1" 200 -
+2025-04-17 00:31:48,703 - INFO - 127.0.0.1 - - [17/Apr/2025 00:31:48] "GET /login HTTP/1.1" 200 -
+2025-04-17 00:31:51,371 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:31:51,373 - INFO - 127.0.0.1 - - [17/Apr/2025 00:31:51] "GET / HTTP/1.1" 200 -
+2025-04-17 00:31:57,783 - INFO - 127.0.0.1 - - [17/Apr/2025 00:31:57] "GET /login HTTP/1.1" 200 -
+2025-04-17 00:31:58,677 - INFO - 127.0.0.1 - - [17/Apr/2025 00:31:58] "GET /register HTTP/1.1" 200 -
+2025-04-17 00:32:00,033 - INFO - 127.0.0.1 - - [17/Apr/2025 00:32:00] "GET /login HTTP/1.1" 200 -
+2025-04-17 00:32:00,874 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:32:00,876 - INFO - 127.0.0.1 - - [17/Apr/2025 00:32:00] "GET / HTTP/1.1" 200 -
+2025-04-17 00:32:33,259 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:32:36,879 - INFO - 127.0.0.1 - - [17/Apr/2025 00:32:36] "GET / HTTP/1.1" 200 -
+2025-04-17 00:32:48,647 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:32:48,697 - INFO - 127.0.0.1 - - [17/Apr/2025 00:32:48] "GET / HTTP/1.1" 200 -
+2025-04-17 00:33:11,728 - INFO - 127.0.0.1 - - [17/Apr/2025 00:33:11] "GET /login HTTP/1.1" 200 -
+2025-04-17 00:33:20,376 - INFO - 127.0.0.1 - - [17/Apr/2025 00:33:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-17 00:33:20,412 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:33:20,417 - INFO - 127.0.0.1 - - [17/Apr/2025 00:33:20] "GET / HTTP/1.1" 200 -
+2025-04-17 00:33:38,292 - INFO - 127.0.0.1 - - [17/Apr/2025 00:33:38] "GET /dashboard HTTP/1.1" 200 -
+2025-04-17 00:33:41,619 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:33:41,621 - INFO - 127.0.0.1 - - [17/Apr/2025 00:33:41] "GET / HTTP/1.1" 200 -
+2025-04-17 00:33:46,335 - INFO - 127.0.0.1 - - [17/Apr/2025 00:33:46] "GET /dashboard HTTP/1.1" 200 -
+2025-04-17 00:33:57,575 - INFO - 127.0.0.1 - - [17/Apr/2025 00:33:57] "GET /contact_submissions HTTP/1.1" 200 -
+2025-04-17 00:33:58,797 - INFO - 127.0.0.1 - - [17/Apr/2025 00:33:58] "GET /dashboard HTTP/1.1" 200 -
+2025-04-17 00:34:15,339 - INFO - 127.0.0.1 - - [17/Apr/2025 00:34:15] "GET /dashboard HTTP/1.1" 200 -
+2025-04-17 00:34:16,842 - INFO - 127.0.0.1 - - [17/Apr/2025 00:34:16] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-17 00:34:16,856 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:34:16,856 - INFO - 127.0.0.1 - - [17/Apr/2025 00:34:16] "GET / HTTP/1.1" 200 -
+2025-04-17 00:35:16,290 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:35:16,777 - INFO - 127.0.0.1 - - [17/Apr/2025 00:35:16] "GET / HTTP/1.1" 200 -
+2025-04-17 00:35:32,300 - INFO - 127.0.0.1 - - [17/Apr/2025 00:35:32] "GET /login HTTP/1.1" 200 -
+2025-04-17 00:35:42,303 - INFO - 127.0.0.1 - - [17/Apr/2025 00:35:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-17 00:35:42,310 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:35:42,312 - INFO - 127.0.0.1 - - [17/Apr/2025 00:35:42] "GET / HTTP/1.1" 200 -
+2025-04-17 00:35:45,784 - INFO - 127.0.0.1 - - [17/Apr/2025 00:35:45] "GET /dashboard HTTP/1.1" 200 -
+2025-04-17 00:36:08,944 - INFO - 127.0.0.1 - - [17/Apr/2025 00:36:08] "GET /change_password HTTP/1.1" 200 -
+2025-04-17 00:37:12,808 - INFO - 127.0.0.1 - - [17/Apr/2025 00:37:12] "GET /change_password HTTP/1.1" 200 -
+2025-04-17 00:37:15,388 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:37:15,392 - INFO - 127.0.0.1 - - [17/Apr/2025 00:37:15] "GET / HTTP/1.1" 200 -
+2025-04-17 00:37:17,825 - INFO - 127.0.0.1 - - [17/Apr/2025 00:37:17] "GET /dashboard HTTP/1.1" 200 -
+2025-04-17 00:37:26,326 - INFO - 127.0.0.1 - - [17/Apr/2025 00:37:26] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-17 00:37:26,417 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:37:26,421 - INFO - 127.0.0.1 - - [17/Apr/2025 00:37:26] "GET / HTTP/1.1" 200 -
+2025-04-17 00:37:33,953 - INFO - 127.0.0.1 - - [17/Apr/2025 00:37:33] "GET /login HTTP/1.1" 200 -
+2025-04-17 00:37:36,598 - INFO - 127.0.0.1 - - [17/Apr/2025 00:37:36] "GET /register HTTP/1.1" 200 -
+2025-04-17 00:37:38,824 - INFO - 127.0.0.1 - - [17/Apr/2025 00:37:38] "GET /login HTTP/1.1" 200 -
+2025-04-17 00:37:39,987 - INFO - 127.0.0.1 - - [17/Apr/2025 00:37:39] "GET /register HTTP/1.1" 200 -
+2025-04-17 00:38:49,769 - INFO - 127.0.0.1 - - [17/Apr/2025 00:38:49] "GET /register HTTP/1.1" 200 -
+2025-04-17 00:38:58,606 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:38:58,612 - INFO - 127.0.0.1 - - [17/Apr/2025 00:38:58] "GET / HTTP/1.1" 200 -
+2025-04-17 00:39:05,842 - INFO - 127.0.0.1 - - [17/Apr/2025 00:39:05] "GET /login HTTP/1.1" 200 -
+2025-04-17 00:39:16,816 - INFO - 127.0.0.1 - - [17/Apr/2025 00:39:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-17 00:39:16,832 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:39:16,835 - INFO - 127.0.0.1 - - [17/Apr/2025 00:39:16] "GET / HTTP/1.1" 200 -
+2025-04-17 00:39:20,020 - INFO - 127.0.0.1 - - [17/Apr/2025 00:39:20] "GET /dashboard HTTP/1.1" 200 -
+2025-04-17 00:39:36,177 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:39:36,185 - INFO - 127.0.0.1 - - [17/Apr/2025 00:39:36] "GET / HTTP/1.1" 200 -
+2025-04-17 00:39:42,189 - INFO - 127.0.0.1 - - [17/Apr/2025 00:39:42] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-17 00:39:42,310 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:39:42,314 - INFO - 127.0.0.1 - - [17/Apr/2025 00:39:42] "GET / HTTP/1.1" 200 -
+2025-04-17 00:39:46,540 - INFO - 127.0.0.1 - - [17/Apr/2025 00:39:46] "GET /login HTTP/1.1" 200 -
+2025-04-17 00:39:49,716 - INFO - 127.0.0.1 - - [17/Apr/2025 00:39:49] "GET /register HTTP/1.1" 200 -
+2025-04-17 00:39:51,698 - DEBUG - Rendering home page; current year: 2025
+2025-04-17 00:39:51,700 - INFO - 127.0.0.1 - - [17/Apr/2025 00:39:51] "GET / HTTP/1.1" 200 -

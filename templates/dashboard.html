@@ -1,63 +1,95 @@
-{% extends "base.html" %}
-
-{% block title %}Dashboard | Borad{% endblock %}
-
+{% extends 'base.html' %}
+{% block title %}Dashboard{% endblock %}
 {% block content %}
-<div class="card">
-  <div class="card-body">
-    <h2 class="card-title">Dashboard</h2>
-    <p class="card-text">Welcome to your dashboard, {{ username }}.</p>
-
-    <!-- User Information Section -->
-    <h4 class="mt-4">Your Information</h4>
-    <ul class="list-group mb-4">
-      <li class="list-group-item"><strong>Username:</strong> {{ username }}</li>
-      <li class="list-group-item"><strong>Email:</strong> {{ user_info.email }}</li>
-      <li class="list-group-item">
-        <strong>Password:</strong>
-        <input type="password" id="display_password" value="********" readonly>
-        <button type="button" class="btn btn-link" onclick="toggleDisplayPassword()">
-          <i class="fa fa-eye" aria-hidden="true" id="toggleIcon"></i>
-        </button>
-        <a href="{{ url_for('change_password') }}" class="btn btn-link">Change Password</a>
-      </li>
-    </ul>
-
-    <!-- Contact Us Form -->
-    <h4 class="mt-4">Contact Us</h4>
-    <form action="{{ url_for('contact_us') }}" method="POST">
-      <div class="mb-3">
-        <label for="contact_name" class="form-label">Your Name</label>
-        <input type="text" class="form-control" id="contact_name" name="name" placeholder="Enter your name" required>
+<div class="row">
+  <!-- Sidebar: Profile and Navigation -->
+  <div class="col-md-3">
+    <div class="card mb-4 animate__animated animate__fadeInLeft">
+      <div class="card-body">
+        <h5 class="card-title">Profile</h5>
+        <p class="card-text">Username: {{ session.username }}</p>
+        <!-- If you store additional info such as email, display it here -->
+        <a href="/change_password" class="btn btn-primary btn-sm">Change Password</a>
       </div>
-      <div class="mb-3">
-        <label for="contact_email" class="form-label">Your Email</label>
-        <input type="email" class="form-control" id="contact_email" name="email" placeholder="Enter your email" required>
+    </div>
+    <div class="card mb-4 animate__animated animate__fadeInLeft">
+      <div class="card-body">
+        <h5 class="card-title">Navigation</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><a href="/dashboard">Dashboard</a></li>
+          <li class="list-group-item"><a href="/contact_submissions">Contact Submissions</a></li>
+          <li class="list-group-item"><a href="/logout">Logout</a></li>
+        </ul>
       </div>
-      <div class="mb-3">
-        <label for="contact_message" class="form-label">Message</label>
-        <textarea class="form-control" id="contact_message" name="message" rows="5" placeholder="Write your message" required></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary w-100">Send Message</button>
-    </form>
+    </div>
+  </div>
 
-    <hr>
-    <a href="{{ url_for('home') }}" class="btn btn-secondary mt-3">Back to Home</a>
-    <a href="{{ url_for('view_contact_submissions') }}" class="btn btn-info mt-3">View Submitted Contact Forms</a>
+  <!-- Main Dashboard Content -->
+  <div class="col-md-9">
+    <!-- Welcome Message -->
+    <div class="card mb-4 animate__animated animate__fadeInUp">
+      <div class="card-body">
+        <h3 class="card-title">Welcome, {{ session.username }}!</h3>
+        <p>Here’s an overview of your projects and recent activity.</p>
+      </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="card mb-4 animate__animated animate__fadeInUp">
+      <div class="card-body">
+        <h5 class="card-title">Your Projects</h5>
+        <div class="row">
+          <!-- Example Project Card 1 -->
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Project 1">
+              <div class="card-body">
+                <h6 class="card-title">Project 1</h6>
+                <p class="card-text">A brief description of Project 1.</p>
+                <a href="#" class="btn btn-primary btn-sm">View</a>
+              </div>
+            </div>
+          </div>
+          <!-- Example Project Card 2 -->
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Project 2">
+              <div class="card-body">
+                <h6 class="card-title">Project 2</h6>
+                <p class="card-text">A brief description of Project 2.</p>
+                <a href="#" class="btn btn-primary btn-sm">View</a>
+              </div>
+            </div>
+          </div>
+          <!-- Example Project Card 3 -->
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img src="https://via.placeholder.com/300x150" class="card-img-top" alt="Project 3">
+              <div class="card-body">
+                <h6 class="card-title">Project 3</h6>
+                <p class="card-text">A brief description of Project 3.</p>
+                <a href="#" class="btn btn-primary btn-sm">View</a>
+              </div>
+            </div>
+          </div>
+          <!-- Add additional project cards here -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Recent Activity Section -->
+    <div class="card animate__animated animate__fadeInUp">
+      <div class="card-body">
+        <h5 class="card-title">Recent Activity</h5>
+        <ul class="list-group">
+          <li class="list-group-item">Logged in at: {{ datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S") }}</li>
+          <li class="list-group-item">Updated profile details.</li>
+          <li class="list-group-item">Created a new project: Project 1.</li>
+          <li class="list-group-item">Submitted a contact form.</li>
+          <!-- You can dynamically populate this list from your database -->
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
-
-<script>
-  function toggleDisplayPassword() {
-    const pwdField = document.getElementById('display_password');
-    const toggleIcon = document.getElementById('toggleIcon');
-    if (pwdField.type === 'password') {
-      pwdField.type = 'text';
-      toggleIcon.className = 'fa fa-eye-slash';
-    } else {
-      pwdField.type = 'password';
-      toggleIcon.className = 'fa fa-eye';
-    }
-  }
-</script>
 {% endblock %}
