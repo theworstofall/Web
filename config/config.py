@@ -1,5 +1,7 @@
 import os
 
+basedir = os.path.abspath(os.path.dirname(__file__))
+
 class Config:
     SECRET_KEY = os.getenv('SECRET_KEY', 'YOUR_SECRET_KEY')  # Fallback for dev
     SQLALCHEMY_TRACK_MODIFICATIONS = False
