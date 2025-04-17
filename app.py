@@ -80,7 +80,6 @@ def login():
     
     return render_template('login.html')
 
-# Register
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     if request.method == 'POST':
@@ -100,6 +99,10 @@ def register():
         if User.query.filter_by(username=username).first():
             flash('Username already exists', 'danger')
             return redirect(url_for('register'))
+
+        if User.query.filter_by(email=email).first():
+            flash('Email is already registered', 'danger')
+            return redirect(url_for('register'))
         
         new_user = User(username=username, email=email)
         new_user.set_password(password)
@@ -110,6 +113,7 @@ def register():
         return redirect(url_for('login'))
     
     return render_template('register.html')
+
 
 # Logout
 @app.route('/logout')
