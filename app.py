@@ -37,14 +37,6 @@ class User(db.Model):
     def check_password(self, password):
         return check_password_hash(self.password, password)
 
-# Contact form submission model
-class ContactSubmission(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(150), nullable=False)
-    email = db.Column(db.String(150), nullable=False)
-    message = db.Column(db.Text, nullable=False)
-    timestamp = db.Column(db.DateTime, default=datetime.utcnow)
-
 # Home page
 @app.route('/')
 def home():
