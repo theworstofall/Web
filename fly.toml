@@ -1,4 +1,4 @@
-app = "your-app-name"  # Replace with your Fly.io app name
+app = "bad-web-app"  # Replace with your Fly.io app name
 
 primary_region = "ams"  # Replace with your preferred Fly region
 
